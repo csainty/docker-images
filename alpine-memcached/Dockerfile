@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.2
 
 RUN addgroup memcache && adduser -s /bin/bash -D -G memcache memcache
 
